@@ -1,0 +1,1 @@
+void = default : somente o próprio pacote ou classe pode utiliza-lo

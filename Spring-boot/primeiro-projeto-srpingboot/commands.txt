@@ -1,0 +1,13 @@
+mvn -version
+
+mvn spring-boot:run > para iniciliazar o servidor
+
+mvn clean install > clean: limpa todos os arquivos .jar do diretorio target / install: realiza o build da aplicação criando um .jar da aplicação
+
+java -jar target/nome do arquivo.jar > se estiver tudo certo inicializa o servidor
+
+ioc(inversão de controle) > gerencia os componentes dentro da aplicação
+
+di(injeção de dependencia) > conecta os componentes, o proprio spring boot conecta todos eles
+
+Obs: Pacotes não podem tem "-"(ifen)
